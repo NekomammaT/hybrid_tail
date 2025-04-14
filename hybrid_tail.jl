@@ -2,11 +2,17 @@ using DifferentialEquations, LinearAlgebra, ForwardDiff, Plots, Statistics, LaTe
 @show Threads.nthreads()
 
 
-sample = 10^5;
+sample = 10^4;
 
+#=
 # n = 2
 ny = 2;
 filename = "N=2_test.csv";
+=#
+
+# n = 15
+ny = 15;
+filename = "N=15.csv";
 
 
 Mpl = 2.4e18;
